@@ -198,7 +198,8 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/Dhyey_Side.jpg");
+  background-position: center;
   background-size: cover;
 }
 #hero:before {
@@ -222,6 +223,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   line-height: 56px;
   color: #fff;
+  margin-right: 20px;
 }
 #hero p {
   color: #fff;
@@ -950,5 +952,11 @@ section {
     position: static;
     width: auto;
     padding-right: 20px 15px;
+  }
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
+  #hero .hero-containe{
+    text-align: right;
   }
 }
